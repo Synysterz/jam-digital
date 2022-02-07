@@ -88,7 +88,7 @@ def SetupClock(radius):
 
 def Week(t):
     week = ["Senin", "Selasa", "Rabu",
-            "Kamis", "Jum'at", "Sabtu", "Minggu"]
+            "Kamis", "Jum'at", "Sabtu", "Monday"]
     return week[t.weekday()]
 
 
